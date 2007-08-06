@@ -1,6 +1,6 @@
 %define module	PAR-Dist
 %define name	perl-%{module}
-%define version 0.24
+%define version 0.25
 %define release %mkrel 1
 
 Name:		%{name}
@@ -10,7 +10,7 @@ Summary:	Create and manipulate PAR distributions
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
-Source:		http://www.cpan.org/modules/by-module/PAR/%{module}-%{version}.tar.bz2
+Source:		http://www.cpan.org/modules/by-module/PAR/%{module}-%{version}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
