@@ -15,7 +15,6 @@ Source:		http://www.cpan.org/modules/by-module/PAR/%{module}-%{version}.tar.gz
 BuildRequires:	perl-devel
 %endif
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module creates and manipulates *PAR distributions*. They are
