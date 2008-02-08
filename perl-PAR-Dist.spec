@@ -1,6 +1,6 @@
 %define module	PAR-Dist
 %define name	perl-%{module}
-%define version 0.28
+%define version 0.29
 %define release %mkrel 1
 
 Name:		%{name}
