@@ -11,9 +11,7 @@ License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
 Source:		http://www.cpan.org/modules/by-module/PAR/%{module}-%{version}.tar.gz
-%if %{mdkversion} < 1010
-BuildRequires:	perl-devel
-%endif
+BuildRequires:	perl-YAML-parser
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
