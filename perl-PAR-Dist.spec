@@ -12,6 +12,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
 Source:		http://www.cpan.org/modules/by-module/PAR/%{module}-%{version}.tar.gz
 BuildRequires:	perl-YAML-parser
+BuildRequires:	perl(Archive::Zip)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
