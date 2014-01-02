@@ -1,14 +1,14 @@
 %define modname	PAR-Dist
-%define modver	0.47
+%define modver 0.49
 
 Summary:	Create and manipulate PAR distributions
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/PAR/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/PAR/PAR-Dist-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-YAML-parser
 BuildRequires:	perl(Archive::Zip)
@@ -39,4 +39,5 @@ file.
 %doc Changes README
 %{perl_vendorlib}/PAR
 %{_mandir}/man3/*
+
 
