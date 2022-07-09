@@ -1,10 +1,10 @@
 %define modname	PAR-Dist
-%define modver 0.49
+%define modver 0.51
 
 Summary:	Create and manipulate PAR distributions
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	8
+Release:	1
 License:	Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/PAR::Dist
