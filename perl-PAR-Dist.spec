@@ -1,14 +1,13 @@
 %define modname	PAR-Dist
-%define modver 0.51
 
 Summary:	Create and manipulate PAR distributions
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	3
+Version:	0.53
+Release:	1
 License:	Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/PAR::Dist
-Source0:	http://www.cpan.org/modules/by-module/PAR/PAR-Dist-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/PAR/PAR-Dist-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test)
@@ -25,17 +24,17 @@ within it. Digitally signed PAR distributions will also contain a SIGNATURE
 file.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
 %check
 %make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc Changes README
