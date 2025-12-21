@@ -9,6 +9,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/PAR::Dist
 Source0:	http://www.cpan.org/modules/by-module/PAR/PAR-Dist-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test)
 BuildRequires:	perl-YAML-parser
