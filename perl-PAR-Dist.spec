@@ -3,7 +3,7 @@
 Summary:	Create and manipulate PAR distributions
 Name:		perl-%{modname}
 Version:	0.53
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/PAR::Dist
